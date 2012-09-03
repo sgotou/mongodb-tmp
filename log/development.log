@@ -1,0 +1,155 @@
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-03 12:17:45 +0900
+Processing by HomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (2.3401ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=code collection=users selector={} flags=[] limit=0 skip=0 fields=nil (1.2259ms)
+  Rendered home/index.html.erb within layouts/application (37.5ms)
+  Rendered layouts/_navigation.html.erb (2.9ms)
+  Rendered layouts/_sidelist.html.erb (1.9ms)
+  Rendered layouts/_messages.html.erb (0.7ms)
+Completed 200 OK in 169ms (Views: 136.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /application.css - 200 OK (17ms)
+
+
+Started GET "/assets/bootstrap_and_overrides.css?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /bootstrap_and_overrides.css - 200 OK (6ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /home.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /jquery_ujs.js - 200 OK (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-transition.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /twitter/bootstrap/bootstrap-transition.js - 200 OK (33ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-alert.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /twitter/bootstrap/bootstrap-alert.js - 200 OK (13ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-scrollspy.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /twitter/bootstrap/bootstrap-scrollspy.js - 200 OK (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-modal.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /twitter/bootstrap/bootstrap-modal.js - 200 OK (12ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-dropdown.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /twitter/bootstrap/bootstrap-dropdown.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tooltip.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /twitter/bootstrap/bootstrap-tooltip.js - 200 OK (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-tab.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /twitter/bootstrap/bootstrap-tab.js - 200 OK (6ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-popover.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /twitter/bootstrap/bootstrap-popover.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-button.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /twitter/bootstrap/bootstrap-button.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-carousel.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /twitter/bootstrap/bootstrap-carousel.js - 200 OK (3ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-collapse.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /twitter/bootstrap/bootstrap-collapse.js - 200 OK (4ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-typeahead.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /twitter/bootstrap/bootstrap-typeahead.js - 200 OK (5ms)
+
+
+Started GET "/assets/twitter/bootstrap/bootstrap-affix.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /twitter/bootstrap/bootstrap-affix.js - 200 OK (6ms)
+
+
+Started GET "/assets/twitter/bootstrap.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /twitter/bootstrap.js - 200 OK (35ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /bootstrap.js - 200 OK (2ms)
+
+
+Started GET "/assets/fontawesome-webfont.eot" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /fontawesome-webfont.eot - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /application.js - 200 OK (36ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /home.js - 200 OK (2ms)
+
+
+Started GET "/assets/fontawesome-webfont.woff" for 127.0.0.1 at 2012-09-03 12:17:46 +0900
+Served asset /fontawesome-webfont.woff - 200 OK (4ms)
+
+
+Started GET "/signin" for 127.0.0.1 at 2012-09-03 12:18:06 +0900
+Processing by SessionsController#new as HTML
+Redirected to http://localhost:3000/auth/twitter
+Completed 302 Found in 1ms
+
+
+Started GET "/auth/twitter" for 127.0.0.1 at 2012-09-03 12:18:06 +0900
+
+
+Started GET "/auth/twitter/callback?oauth_token=kn4a0n0Z8B2LXAOzEWlQNbB4mjZQWxVyEfQCbWThdZw&oauth_verifier=1RLr7BT1S3uK1LUiYMHknrelNsA6CzT84cNjYLO1k" for 127.0.0.1 at 2012-09-03 12:18:11 +0900
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"kn4a0n0Z8B2LXAOzEWlQNbB4mjZQWxVyEfQCbWThdZw", "oauth_verifier"=>"1RLr7BT1S3uK1LUiYMHknrelNsA6CzT84cNjYLO1k", "provider"=>"twitter"}
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (0.8631ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=code collection=users selector={"$query"=>{"provider"=>"twitter", "uid"=>"75547078"}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 fields=nil (0.3741ms)
+  MOPED: 127.0.0.1:27017 INSERT       database=code collection=users documents=[{"_id"=>"504421753764785076000001", "provider"=>"twitter", "uid"=>"75547078", "name"=>"liszt26", "email"=>"", "image"=>"http://a0.twimg.com/profile_images/920500328/images_normal.jpeg"}] flags=[] (0.1800ms)
+Redirected to http://localhost:3000/users/504421753764785076000001/edit
+Completed 302 Found in 32ms
+
+
+Started GET "/users/504421753764785076000001/edit" for 127.0.0.1 at 2012-09-03 12:18:13 +0900
+Processing by UsersController#edit as HTML
+  Parameters: {"id"=>"504421753764785076000001"}
+  MOPED: 127.0.0.1:27017 QUERY        database=code collection=users selector={"_id"=>"504421753764785076000001"} flags=[] limit=0 skip=0 fields=nil (326.1211ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=code collection=users selector={"_id"=>"504421753764785076000001"} flags=[] limit=0 skip=0 fields=nil (0.4838ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=code collection=users selector={"_id"=>"504421753764785076000001"} flags=[] limit=0 skip=0 fields=nil (0.4990ms)
+  Rendered users/edit.html.erb within layouts/application (44.5ms)
+  Rendered layouts/_navigation.html.erb (2.9ms)
+  Rendered layouts/_sidelist.html.erb (2.1ms)
+  Rendered layouts/_messages.html.erb (1.1ms)
+Completed 200 OK in 562ms (Views: 230.5ms)
+
+
+Started GET "/assets/fontawesome-webfont.eot" for 127.0.0.1 at 2012-09-03 12:18:13 +0900
+Served asset /fontawesome-webfont.eot - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-03 12:18:28 +0900
+Processing by HomeController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} (1.0808ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=code collection=users selector={} flags=[] limit=0 skip=0 fields=nil (0.8690ms)
+  Rendered home/index.html.erb within layouts/application (5.5ms)
+  MOPED: 127.0.0.1:27017 QUERY        database=code collection=users selector={"_id"=>"504421753764785076000001"} flags=[] limit=0 skip=0 fields=nil (0.4499ms)
+  Rendered layouts/_navigation.html.erb (3.4ms)
+  Rendered layouts/_sidelist.html.erb (0.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 38ms (Views: 37.2ms)
